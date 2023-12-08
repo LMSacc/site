@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script>"index.js"</script>
+  <title>Document</title>
+</head>
+<body>
+  <ul>
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="about.html">О чём сайт</a></li>
+    <li><a href="videos.html">Найти видео</a></li>
+    <li><a href="info.html">Про интсрументы</a></li>
+  </ul>
+  <label><input type="text"></label>
+  <button onclick="displayText()">Нажми меня</button>
+  <p id="text"></p>
+
+  <script src="index.js"></script>
+  <script>
+    function displayText() {
+      document.getElementById("text").innerHTML = getListVideos();
+    }
+  </script>
+</body>
+</html>

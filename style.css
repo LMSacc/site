@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img1.png");
+    background-size: 1920px 1080px;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  img {
+    height: 20px;
+  }
+
+  ol {
+    padding-left: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+ }
+ 
+ ul {
+  margin: 0;
+  padding-left: 0;
+}
+a {text-decoration: none;}
+  
